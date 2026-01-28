@@ -1,0 +1,4 @@
+you need python to run this code and also the mac address of router
+in order to generate the password,
+work for all fibrehome HG6145F router models to get password for superadmin panel
+on defaultgateway, user will most likely be "admin"
