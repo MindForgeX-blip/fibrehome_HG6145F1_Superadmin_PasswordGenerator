@@ -11,7 +11,7 @@ def _mod(v, m):
     return v % m
 
 def mac_to_pass(mac: str) -> str:
-    '''Generate Fiberhome HG6145F1 (Algeria) admin password from MAC address'''
+    '''Generate Fiberhome HG6145F1 admin password from MAC address'''
     # Validate MAC format (XX:XX:XX:XX:XX:XX)
     if not re.fullmatch('([0-9A-Fa-f]{2}:){5}[0-9A-Fa-f]{2}', mac):
         return 'Invalid MAC format (expected XX:XX:XX:XX:XX:XX)'
@@ -77,7 +77,7 @@ def mac_to_pass(mac: str) -> str:
 def main():
     print("=" * 60)
     print("Fiberhome HG6145F1 Admin Password Generator")
-    print("By Wir3Walk3r")
+    print("By MindForgeX-blip on github")
     print("=" * 60)
     print()
     
